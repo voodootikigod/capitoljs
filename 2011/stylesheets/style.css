@@ -1,0 +1,20 @@
+/*Reset the world*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+:focus{outline:0;}
+body{line-height:1;color:black;background:white;}
+ol,ul{list-style:none;}
+table{border-collapse:separate;border-spacing:0;}
+caption,th,td{text-align:left;font-weight:normal;}
+blockquote:before,blockquote:after,
+q:before,q:after{content:"";}
+blockquote,q{quotes:"" "";}
+body { background: #f9f8ee url(../images/background.jpg) top center no-repeat;}
+#main { width: 862px; margin:0px auto; background: url(../images/mainbg.jpg) top left repeat-y; padding: 17px;}
+header { height: 200px; width: 866px;}
+navigation { height: 38px; width: 866px; margin: 0px auto; display: block; text-align: center;}
+navigation a { display: inline-block; height: 38px; line-height: 38px; color: white; font-weight: bold;  font-family: 'Ubuntu', arial, serif; text-decoration: none; font-size: 14px; padding: 0px; padding-right: 15px;}
+navigation ul, navigation li { list-style: none; padding: 0px; margin: 0px;}
+navigation li { display:inline-block; padding-left:15px;}
+
+navigation li#active a { background: transparent url(../images/navrightcap.jpg) center right no-repeat; color: black;}
+navigation li#active { background: transparent url(../images/selected.jpg) center left no-repeat; color: black;}
