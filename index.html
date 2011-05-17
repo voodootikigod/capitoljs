@@ -19,5 +19,20 @@
 </head>
 <body>
   <img src="http://jsconf.s3.amazonaws.com/capjs.gif" alt="CAPITOLJS:09.18.2011:WASHINGTON-DC" width="471" height="172"/>
+  <script src="tea.js"></script>
+  <script>
+    function register(passcode) {
+      try {
+        var url = eval(Tea.decrypt("Vx0HYTRH+dhsDTvUPfXTQ+36IRauK2BoexynaFdWCb+VF5KpQ8nw3jYlzuTqSW4Y6WyfjSaixepG62Uzfj9mlFdJr7LinTPkJfT6iHdjtD/b4UnJhxWqUg==", passcode));
+        window.location.href = url;
+      } catch (e) {
+        console.log("Authorization Denied.")
+      }
+    }
+    if (console && console.log) {
+      console.log("To accept the mission, execute the register function with the password.");      
+      // hint: passcode is on the page.
+    }
+  </script>
 </body>
 </html>
