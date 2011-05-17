@@ -14,7 +14,7 @@ blockquote,q{quotes:"" "";}
 header h1, header h2, header h3 { display: none}
 
 body { background: #f9f8ee url(../images/background.gif) top center no-repeat; font-family: 'Ubuntu', arial, serif;}
-#main { width: 862px; margin:0px auto; background: url(../images/mainbg.jpg) top left repeat-y; padding: 0px 17px;}
+#main { width: 862px; margin:0px auto; background: url(../images/mainbg.jpg) top left repeat-y; padding: 0px 17px 17px;}
 header { height: 109px; width: 300px; margin: 0px auto}
 header { padding-top: 91px; padding-left: 567px}
 a, a:link, a:visited { color: #d20000; background: transparent;-webkit-transition-duration: 1s; }
