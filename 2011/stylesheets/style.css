@@ -44,5 +44,9 @@ footer img {  vertical-align: top; margin: 0px 8px; padding: 0px; height: 22px}
 * html .clearfix             { zoom: 1; } /* IE6 */
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
-.sponsor { text-align: center; margin-bottom: 8px;}
+.sponsor { text-align: center; margin-bottom: 18px;}
+.sponsor .color { display:none;}
+.sponsor.hover .color { display:inline;}
+.sponsor.hover .gray { display:none;}
+.sponsor a:hover { background:transparent;}
 h1 { color: black; font-weight: bold; font-size: 16px; border-bottom:2px solid black; padding-bottom: 6px}
