@@ -1,0 +1,51 @@
+<!doctype html>
+%html.no-js{:lang => "en"}
+  %head
+    %meta{:charset => "UTF-8"}/
+    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
+    %title .::. CapitolJS 2011 .::. 9.18.2011
+    %meta{:content => "CapitolJS - Bringing all the awesome of JSConf back to Washington DC for one magical day of epic fun, learning, and all around JS awesome.", :name => "description"}/
+    %meta{:content => "#JSConf", :name => "author"}/
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    %link{:href => "http://fonts.googleapis.com/css?family=Ubuntu:regular,bold", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "/stylesheets/style.css", :rel => "stylesheet"}/
+    %link{:href => "http://2011.jsconf.us/images/favicon.png", :rel => "shortcut icon"}/
+    %meta{:content => "capitoljs, JavaScript, js, Washington DC JS, jsconf, js conference, javascript conference", :name => "keywords"}/
+    /[if lt IE 9]
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  %body
+    #container
+      %header
+        %h1 CapitolJS
+        %h2 September 18, 2011
+        %h3
+          %a{:href => ""} Washington, DC
+        %a#enroll{:href => "http://capitoljs2011.eventbrite.com"}
+          %span Click Here To Enroll | 09:18:2011:WASHINGTONDC:CAPITOLJS
+      %navigation
+        %ul
+          %li{:class=>(@tab == :home ? "active" : nil)}
+            %a{:href => "/"} Home
+          %li{:class=>(@tab == :venue ? "active" : nil)}
+            %a{:href => "/venue.html"} Venue
+          %li{:class=>(@tab == :speakers ? "active" : nil)}
+            %a{:href => "/speakers.html"} Speakers
+          %li{:class=>(@tab == :sponsors ? "active" : nil)}
+            %a{:href => "/sponsors.html"} Sponsors
+          %li{:class=>(@tab == :about ? "active" : nil)}
+            %a{:href => "/about.html"} About
+      = yield
+      #close
+      %footer
+        %img{:alt => "Stars, Stars, Stars!!!", :height => "22", :src => "/images/stars.png", :width => "23"}/
+        \&copy;
+        %a{:href => "http://www.iterativedesigns.com"} Iterative Designs
+        2011
+        %img{:alt => "Stars, Stars, Stars!!!", :height => "22", :src => "/images/stars.png", :width => "23"}/
+    %script{:src => "http://ajax.googleapis.com/ajax/libs/dojo/1.6.0/dojo/dojo.xd.js"}
+    %script{:src => "javascripts/app.js"}
+    :javascript
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+      g.src='http://www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
