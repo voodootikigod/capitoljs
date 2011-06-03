@@ -48,7 +48,7 @@ footer img {  vertical-align: top; margin: 0px 8px; padding: 0px; height: 22px}
 * html .clearfix             { zoom: 1; } /* IE6 */
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
-#right .sponsor { text-align: center; margin-bottom: 18px;}
+#right .sponsor { text-align: center; margin-bottom: 24px;}
 #right .sponsor .color { display:none;}
 #right .sponsor.hover .color { display:inline;}
 #right .sponsor.hover .gray { display:none;}
