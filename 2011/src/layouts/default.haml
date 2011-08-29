@@ -26,6 +26,8 @@
         %ul
           %li{:class=>(@tab == :home ? "active" : nil)}
             %a{:href => "/"} Home
+          %li{:class=>(@tab == :schedule ? "active" : nil)}
+            %a{:href => "/schedule.html"} Schedule
           %li{:class=>(@tab == :venue ? "active" : nil)}
             %a{:href => "/venue.html"} Venue
           %li{:class=>(@tab == :speakers ? "active" : nil)}
